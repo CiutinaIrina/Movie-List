@@ -1,0 +1,4 @@
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(260px + 2rem), 1fr));
+}

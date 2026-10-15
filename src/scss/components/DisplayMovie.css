@@ -1,0 +1,28 @@
+.movie {
+    height: fit-content;
+    width: fit-content;
+    max-width: calc(260px + 2rem);
+    align-self: start;
+
+    transition: transform 250ms ease, box-shadow 250ms ease, color 250ms ease;
+}
+
+.movie-title {
+    font-weight: 800;
+    height: 80px;
+}
+
+.movie-information {
+    text-align: left;
+}
+
+img {
+    width: 260px;
+    height: 385px;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.685), 0 20px 40px rgba(0, 0, 0, 0.685);
+    background-color: color-mix(in srgb, #212529 88%, white);
+}

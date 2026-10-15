@@ -1,0 +1,18 @@
+import Loading from "./Loading";
+
+export default function GenericList<T>(props: GenericListProps<T>) {
+    if (props.list === undefined) {
+        return props.loadingUI ? props.loadingUI : <Loading />
+    } else if (props.list.length == 0) {
+        return props.emptyListUI ? props.emptyListUI : <p>No elements</p>
+    } else {
+        return props.children;
+    }
+}
+
+interface GenericListProps<T>{
+    list: T[] | undefined,
+    children: React.ReactNode,
+    emptyListUI?: React.ReactNode,
+    loadingUI?: React.ReactNode,
+}
