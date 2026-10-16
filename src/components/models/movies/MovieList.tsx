@@ -1,7 +1,7 @@
-import GenericList from "../utility/GenericList";
-import type Movie from "../../models/movie";
-import DisplayMovie from "./DisplayMovie";
-import "../../scss/components/MovieList.css";
+import "../../../scss/components/MovieList.css";
+import GenericList from "../../utility/GenericList";
+import type Movie from "./movie";
+import DisplayMovie from "./MovieDisplayer";
 
 export default function MovieList(props: MovieListProps) {
     return (

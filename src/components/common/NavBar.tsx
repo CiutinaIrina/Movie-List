@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import "../../scss/components/NavBar.css";
 
 export default function NavBar() {
@@ -5,11 +6,12 @@ export default function NavBar() {
         <>
             <nav className="navbar bg-info bg-gradient navbar-expand-lg py-4 lh">
                 <div className="container-fluid">
-                    <a className="navbar-brand fs-3 fw-semibold" href="#">Movie List</a>
+                    <NavLink className="navbar-brand fs-3 fw-semibold" to="/">Movie List</NavLink>
                     <div className="collapse navbar-collapse px-3">
                         <ul className="navbar-nav">
-                            <li className="nav-item"><a className="nav-link fs-5">Genres</a></li>
-                            <li className="nav-item"><a className="nav-link fs-5">Other</a></li>
+                            <li className="nav-item"><NavLink className="nav-link fs-5" to="/movies">Movies</NavLink></li>
+                            <li className="nav-item"><NavLink className="nav-link fs-5" to="/videoGames">Video Games</NavLink></li>
+                            <li className="nav-item"><NavLink className="nav-link fs-5" to="/tvShows">TV Shows</NavLink></li>
                         </ul>
                     </div>
                 </div>

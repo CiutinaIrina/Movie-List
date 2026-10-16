@@ -1,5 +1,5 @@
-import type Movie from "../../models/movie.ts";
-import "../../scss/components/DisplayMovie.css";
+import type Movie from "./movie.ts";
+import "../../../scss/components/MovieDisplayer.css";
 
 export default function DisplayMovie(props: DisplayMovieProps) {
     return (
