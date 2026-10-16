@@ -1,0 +1,160 @@
+const tvShows = [
+  {
+    id: 1,
+    type: "TV Show",
+    name: "BoJack Horseman",
+    year: 2014,
+    seasons: 6,
+    genre: ["Animated", "Comedy-Drama"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/BoJack_Horseman_season_1_poster.png",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 2,
+    type: "TV Show",
+    name: "Breaking Bad",
+    year: 2008,
+    seasons: 5,
+    genre: ["Crime", "Drama"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Breaking_Bad_season_1_DVD.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 3,
+    type: "TV Show",
+    name: "The Big Bang Theory",
+    year: 2007,
+    seasons: 12,
+    genre: ["Sitcom", "Comedy"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Big_Bang_Theory_season_1_DVD.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 4,
+    type: "TV Show",
+    name: "Drawn Together",
+    year: 2004,
+    seasons: 3,
+    genre: ["Animated", "Comedy"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Drawn_Together_season_1_DVD.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 5,
+    type: "TV Show",
+    name: "The Legend of Korra",
+    year: 2012,
+    seasons: 4,
+    genre: ["Animated", "Fantasy"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Legend_of_Korra_season_1_poster.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 6,
+    type: "TV Show",
+    name: "X-Men: Evolution",
+    year: 2000,
+    seasons: 4,
+    genre: ["Animated", "Superhero"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/X-Men_Evolution.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 7,
+    type: "TV Show",
+    name: "The Crown",
+    year: 2016,
+    seasons: 6,
+    genre: ["Historical", "Drama"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Crown_title_card.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 8,
+    type: "TV Show",
+    name: "Lord of the Flies",
+    year: 2026,
+    seasons: 1,
+    genre: ["Drama"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Lord_of_the_Flies_poster.jpg",
+    seen: true,
+    rating: 0,
+    commentary: ""
+  },
+  {
+    id: 9,
+    type: "TV Show",
+    name: "PGS",
+    year: 2000,
+    seasons: null,
+    genre: ["Unknown"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/PGS_poster.jpg",
+    seen: false,
+    rating: null,
+    commentary: ""
+  },
+  {
+    id: 10,
+    type: "TV Show",
+    name: "Neon Genesis Evangelion",
+    year: 1995,
+    seasons: 1,
+    genre: ["Anime", "Mecha"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Neon_Genesis_Evangelion_poster.jpg",
+    seen: false,
+    rating: null,
+    commentary: ""
+  },
+  {
+    id: 11,
+    type: "TV Show",
+    name: "Stranger Things",
+    year: 2016,
+    seasons: 5,
+    genre: ["Science Fiction", "Horror"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Stranger_Things_season_1.jpg",
+    seen: false,
+    rating: null,
+    commentary: ""
+  },
+  {
+    id: 12,
+    type: "TV Show",
+    name: "Young Sheldon",
+    year: 2017,
+    seasons: 7,
+    genre: ["Sitcom", "Comedy"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Young_Sheldon_title_card.jpg",
+    seen: false,
+    rating: null,
+    commentary: ""
+  },
+  {
+    id: 13,
+    type: "TV Show",
+    name: "Wednesday",
+    year: 2022,
+    seasons: 2,
+    genre: ["Supernatural", "Comedy"],
+    src: "https://en.wikipedia.org/wiki/Special:FilePath/Wednesday_Netflix_series_poster.png",
+    seen: false,
+    rating: null,
+    commentary: ""
+  }
+];
+
+export default tvShows;

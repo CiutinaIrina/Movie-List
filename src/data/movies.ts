@@ -1,6 +1,7 @@
-export default movies = [
+const movies = [
   {
     id: 0,
+    type: "Movie",
     name: "Backrooms",
     year: 2026,
     genre: ["Horror"],
@@ -12,6 +13,7 @@ export default movies = [
   },
   {
     id: 1,
+    type: "Movie",
     name: "The Odyssey",
     year: 2026,
     genre: ["Drama", "Historical"],
@@ -23,6 +25,7 @@ export default movies = [
   },
   {
     id: 2,
+    type: "Movie",
     name: "Coyote vs. Acme",
     year: 2026,
     genre: ["Comedy", "Children"],
@@ -34,6 +37,7 @@ export default movies = [
   },
   {
     id: 3,
+    type: "Movie",
     name: "Miller's Girl",
     year: 2024,
     genre: ["Thriller"],
@@ -45,6 +49,7 @@ export default movies = [
   },
   {
     id: 4,
+    type: "Movie",
     name: "9 to 5",
     year: 1980,
     genre: ["Comedy"],
@@ -56,6 +61,7 @@ export default movies = [
   },
   {
     id: 5,
+    type: "Movie",
     name: "Avatar: The Way of Water",
     year: 2022,
     genre: ["Sci-Fi"],
@@ -67,6 +73,7 @@ export default movies = [
   },
   {
     id: 6,
+    type: "Movie",
     name: "Michael",
     year: 2026,
     genre: ["Biopic"],
@@ -78,6 +85,7 @@ export default movies = [
   },
   {
     id: 7,
+    type: "Movie",
     name: "Back to Black",
     year: 2024,
     genre: ["Biopic"],
@@ -89,6 +97,7 @@ export default movies = [
   },
   {
     id: 8,
+    type: "Movie",
     name: "Avatar: Fire and Ash",
     year: 2025,
     genre: ["Sci-Fi"],
@@ -100,6 +109,7 @@ export default movies = [
   },
   {
     id: 9,
+    type: "Movie",
     name: "Minions & Monsters",
     year: 2026,
     genre: ["Animation", "Comedy", "Children"],
@@ -111,6 +121,7 @@ export default movies = [
   },
   {
     id: 10,
+    type: "Movie",
     name: "Wonka",
     year: 2023,
     genre: ["Fantasy", "Musical", "Adventure"],
@@ -122,6 +133,7 @@ export default movies = [
   },
   {
     id: 11,
+    type: "Movie",
     name: "Star Wars",
     year: 1977,
     genre: ["Sci-Fi", "Adventure"],
@@ -133,6 +145,7 @@ export default movies = [
   },
   {
     id: 12,
+    type: "Movie",
     name: "Franz",
     year: 2025,
     genre: ["Drama", "Biography"],
@@ -144,6 +157,7 @@ export default movies = [
   },
   {
     id: 13,
+    type: "Movie",
     name: "Le Crime du 3e étage",
     year: 2026,
     genre: ["Comedy", "Crime", "Mystery"],
@@ -155,6 +169,7 @@ export default movies = [
   },
   {
     id: 14,
+    type: "Movie",
     name: "Temple Grandin",
     year: 2010,
     genre: ["Biography", "Drama"],
@@ -166,6 +181,7 @@ export default movies = [
   },
   {
     id: 15,
+    type: "Movie",
     name: "The Theory of Everything",
     year: 2014,
     genre: ["Biography", "Drama", "Romance"],
@@ -177,6 +193,7 @@ export default movies = [
   },
   {
     id: 16,
+    type: "Movie",
     name: "Mean Girls",
     year: 2004,
     genre: ["Comedy"],
@@ -188,6 +205,7 @@ export default movies = [
   },
   {
     id: 17,
+    type: "Movie",
     name: "Interstellar",
     year: 2014,
     genre: ["Sci-Fi", "Drama", "Adventure"],
@@ -199,6 +217,7 @@ export default movies = [
   },
   {
     id: 18,
+    type: "Movie",
     name: "Don't Look Up",
     year: 2021,
     genre: ["Comedy", "Drama", "Sci-Fi"],
@@ -210,6 +229,7 @@ export default movies = [
   },
   {
     id: 19,
+    type: "Movie",
     name: "Legally Blonde",
     year: 2001,
     genre: ["Comedy", "Romance"],
@@ -221,6 +241,7 @@ export default movies = [
   },
   {
     id: 20,
+    type: "Movie",
     name: "The Ring",
     year: 2002,
     genre: ["Horror", "Mystery"],
@@ -232,6 +253,7 @@ export default movies = [
   },
   {
     id: 21,
+    type: "Movie",
     name: "The Ring Two",
     year: 2005,
     genre: ["Horror", "Mystery"],
@@ -243,6 +265,7 @@ export default movies = [
   },
   {
     id: 22,
+    type: "Movie",
     name: "X-Men",
     year: 2000,
     genre: ["Action", "Sci-Fi"],
@@ -254,6 +277,7 @@ export default movies = [
   },
   {
     id: 23,
+    type: "Movie",
     name: "X2: X-Men United",
     year: 2003,
     genre: ["Action", "Sci-Fi"],
@@ -265,6 +289,7 @@ export default movies = [
   },
   {
     id: 24,
+    type: "Movie",
     name: "X-Men: The Last Stand",
     year: 2006,
     genre: ["Action", "Sci-Fi"],
@@ -276,6 +301,7 @@ export default movies = [
   },
   {
     id: 25,
+    type: "Movie",
     name: "X-Men: First Class",
     year: 2011,
     genre: ["Action", "Sci-Fi"],
@@ -287,6 +313,7 @@ export default movies = [
   },
   {
     id: 26,
+    type: "Movie",
     name: "X-Men: Days of Future Past",
     year: 2014,
     genre: ["Action", "Sci-Fi"],
@@ -298,6 +325,7 @@ export default movies = [
   },
   {
     id: 27,
+    type: "Movie",
     name: "X-Men: Apocalypse",
     year: 2016,
     genre: ["Action", "Sci-Fi"],
@@ -309,6 +337,7 @@ export default movies = [
   },
   {
     id: 28,
+    type: "Movie",
     name: "X-Men: Dark Phoenix",
     year: 2019,
     genre: ["Action", "Sci-Fi"],
@@ -319,3 +348,5 @@ export default movies = [
     commentary: ""
   }
 ];
+
+export default movies;

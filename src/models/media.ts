@@ -1,9 +1,10 @@
-export default interface Movie {
+export default interface Media {
     id: number,
     name: string,
+    type: string,
+    year: number,
     genre: string[],
     src: string,
-    leadActors: string[],
     seen: boolean,
     rating: number | null,
     commentary: string,
