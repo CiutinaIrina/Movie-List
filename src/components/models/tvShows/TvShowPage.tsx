@@ -11,6 +11,10 @@ export default function TvShowPage() {
     const [wathced, setWatched] = useState<Media[] | undefined>();
     const [unwatched, setUnwatched] = useState<Media[] | undefined>();
 
+    const getMediaType = (): string => {
+        return tvShows[0].type;
+    }
+
     useEffect(() => {
         setMedia(tvShows)
     })
@@ -22,10 +26,10 @@ export default function TvShowPage() {
 
     return (
         <>
-            <MediaHeading title="Finished TV Shows" name="tvShow" route="/addTvShow"/>
-            <MediaList mediaEntries={wathced} editRoute="tvShows"/>
-            <MediaHeading title="Unfinished TV Shows" name="tvShow" route="/addTvShow"/>
-            <MediaList mediaEntries={unwatched} editRoute="tvShows"/>
+            <MediaHeading title="Finished TV Shows" name={getMediaType()}/>
+            <MediaList mediaEntries={wathced} />
+            <MediaHeading title="Unfinished TV Shows" name={getMediaType()}/>
+            <MediaList mediaEntries={unwatched}/>
         </>
     )
 }

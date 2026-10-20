@@ -10,6 +10,10 @@ export default function MoviePage() {
     const [watched, setWatched] = useState<Media[] | undefined>();
     const [unwatched, setUnwatched] = useState<Media[] | undefined>();
 
+    const getMediaType = (): string => {
+        return movies[0].type;
+    }
+
     useEffect(() => {
         setMedia(movies)
     })
@@ -22,10 +26,10 @@ export default function MoviePage() {
 
     return (
         <>
-            <MediaHeading title="Wathced Movies" name="movie" route="/addMovie"/>
-            <MediaList mediaEntries={watched} editRoute="movies"/>
-            <MediaHeading title="Unwathced Movies" name="movie" route="/addMovie"/>
-            <MediaList mediaEntries={unwatched} editRoute="movies" />
+            <MediaHeading title="Wathced Movies" name={getMediaType()}/>
+            <MediaList mediaEntries={watched}/>
+            <MediaHeading title="Unwathced Movies" name={getMediaType()}/>
+            <MediaList mediaEntries={unwatched}/>
         </>
     )
 }

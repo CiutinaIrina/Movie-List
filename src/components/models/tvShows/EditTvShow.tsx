@@ -1,8 +1,7 @@
 import { useParams } from "react-router-dom";
 
 export default function EditTvShow() {
-
-    const { name, id } = useParams();
+    const { id } = useParams();
 
     return (
         <>

@@ -11,6 +11,10 @@ export default function VideoGamePage() {
     const [wathced, setWatched] = useState<Media[] | undefined>();
     const [unwatched, setUnwatched] = useState<Media[] | undefined>();
 
+    const getMediaType = (): string => {
+        return videoGames[0].type;
+    }
+
     useEffect(() => {
         setMedia(videoGames)
     })
@@ -23,10 +27,10 @@ export default function VideoGamePage() {
 
     return (
         <>
-            <MediaHeading title="Played Video Games" name="videoGame" route="/addVideoGame"/>
-            <MediaList mediaEntries={wathced} editRoute="videoGames"/>
-            <MediaHeading title="Unplayed Video Games" name="videoGame" route="/addVideoGame"/>
-            <MediaList mediaEntries={unwatched} editRoute="videoGames"/>
+            <MediaHeading title="Played Video Games" name={getMediaType()} />
+            <MediaList mediaEntries={wathced}/>
+            <MediaHeading title="Unplayed Video Games" name={getMediaType()} />
+            <MediaList mediaEntries={unwatched}/>
         </>
     )
 }

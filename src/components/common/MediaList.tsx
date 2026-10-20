@@ -8,7 +8,7 @@ export default function MediaList(props: MediaListProps) {
         <GenericList list={props.mediaEntries}>
             <div className="movie-list">
                 {props.mediaEntries?.map(media => 
-                    <MediaDisplayCard media={media} key={media.id} editRoute={props.editRoute}/>
+                    <MediaDisplayCard media={media} key={media.id}/>
                 )}
             </div>
         </GenericList>
@@ -17,5 +17,4 @@ export default function MediaList(props: MediaListProps) {
 
 interface MediaListProps {
     mediaEntries: Media[] | undefined;
-    editRoute: string;
 }
