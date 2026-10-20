@@ -15,6 +15,7 @@ import Years from "./components/models/Years"
 import MyMoviePage from './components/models/movies/MyMoviePage';
 import MyTvShowPage from './components/models/tvShows/MyTvShowPage';
 import MyVideoGamePage from './components/models/videoGames/MyVideoGamePage';
+import RouteDoesNotExist from './components/utility/RouteDoesNotExist';
 
 export default function AppRoutes() {
     return (
@@ -35,6 +36,7 @@ export default function AppRoutes() {
             <Route path="/tvShows/edit/:id" element={<EditTvShow />} />
             <Route path="/tvShows/show/:id" element={<ShowTvShow />} />
             <Route path="/filterResults" element={<FilterResults />} />
+            <Route path="*" element={<RouteDoesNotExist />} />
         </Routes>
     )
 }
