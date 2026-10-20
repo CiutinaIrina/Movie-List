@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import "../../scss/NavBar.css";
+import SearchBar from "./SearchBar";
 
 export default function NavBar() {
     return (
@@ -12,8 +13,11 @@ export default function NavBar() {
                             <li className="nav-item"><NavLink className="nav-link fs-5" to="/movies">Movies</NavLink></li>
                             <li className="nav-item"><NavLink className="nav-link fs-5" to="/videoGames">Video Games</NavLink></li>
                             <li className="nav-item"><NavLink className="nav-link fs-5" to="/tvShows">TV Shows</NavLink></li>
+                            <li className="nav-item"><NavLink className="nav-link fs-5" to="/genres">Genres</NavLink></li>
+                            <li className="nav-item"><NavLink className="nav-link fs-5" to="/years">Years</NavLink></li>
                         </ul>
                     </div>
+                    <SearchBar />
                 </div>
             </nav>
         </>

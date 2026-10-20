@@ -6,7 +6,7 @@ const videoGames = [
     year: 2006,
     genre: ["Action", "RPG"],
     platforms: ["PC", "Xbox 360", "PlayStation 3"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Elder_Scrolls_IV_Oblivion_cover.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/22330/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -18,7 +18,7 @@ const videoGames = [
     year: 2011,
     genre: ["Action", "RPG", "Open World"],
     platforms: ["PC", "PlayStation 3", "Xbox 360", "PlayStation 4", "Xbox One", "Nintendo Switch", "PlayStation 5", "Xbox Series X/S"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Elder_Scrolls_V_Skyrim_cover.png",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/72850/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -30,7 +30,7 @@ const videoGames = [
     year: 1999,
     genre: ["Turn-Based Strategy"],
     platforms: ["PC", "Mac OS", "Linux"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Heroes_of_Might_and_Magic_III_cover.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/297000/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -42,7 +42,7 @@ const videoGames = [
     year: 2002,
     genre: ["Turn-Based Strategy"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Heroes_of_Might_and_Magic_IV_cover.jpg",
+    src: "https://posmotreli.su/var/www/html/images/HoMM4.png",
     seen: true,
     rating: 0,
     commentary: ""
@@ -54,7 +54,7 @@ const videoGames = [
     year: 1998,
     genre: ["Role-Playing"],
     platforms: ["PC"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Might_and_Magic_VI_cover.jpg",
+    src: "https://cdn2.steamgriddb.com/grid/52a2f70ae82c5c97ccd686d7ca3742f9.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -66,7 +66,7 @@ const videoGames = [
     year: 2000,
     genre: ["City-Building", "Strategy"],
     platforms: ["PC"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Zeus_Master_of_Olympus_cover.jpg",
+    src: "https://tse2.mm.bing.net/th/id/OIP.fno0nvYTKBYqYGcyhqM-ugHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: true,
     rating: 0,
     commentary: ""
@@ -78,7 +78,7 @@ const videoGames = [
     year: 1999,
     genre: ["Real-Time Strategy"],
     platforms: ["PC", "PlayStation 2", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Age_of_Empires_II_cover.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/813780/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -90,7 +90,7 @@ const videoGames = [
     year: 2002,
     genre: ["Real-Time Strategy"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Warcraft_III_Reign_of_Chaos_cover.jpg",
+    src: "https://m.media-amazon.com/images/M/MV5BOWY0YzI2NDQtZTcxMC00MDYxLWExZTUtYWY3NmVkZjYyOGNjXkEyXkFqcGc@._V1_.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -102,7 +102,7 @@ const videoGames = [
     year: 2004,
     genre: ["Life Simulation"],
     platforms: ["PC", "Mac OS", "PlayStation 2", "Xbox", "Nintendo GameCube", "Nintendo DS", "Game Boy Advance", "PSP"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Sims_2_cover.jpg",
+    src: "https://tse1.mm.bing.net/th/id/OIP.VghmEFfc3qW6wM5EynSkmwHaKf?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: true,
     rating: 0,
     commentary: ""
@@ -114,7 +114,7 @@ const videoGames = [
     year: 2004,
     genre: ["Action", "Adventure", "Open World"],
     platforms: ["PC", "PlayStation 2", "Xbox", "Mac OS", "PlayStation 3", "Xbox 360", "PlayStation 4", "Xbox One", "Nintendo Switch", "iOS", "Android"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Grand_Theft_Auto_San_Andreas_box_art.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/12120/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -126,7 +126,7 @@ const videoGames = [
     year: 2021,
     genre: ["Survival", "Sandbox"],
     platforms: ["PC", "Xbox One", "Xbox Series X/S"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Valheim_cover_art.jpg",
+    src: "https://cdn.mobygames.com/covers/16995095-valheim-windows-apps-front-cover.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -138,7 +138,7 @@ const videoGames = [
     year: 2011,
     genre: ["Sandbox", "Survival"],
     platforms: ["PC", "Mac OS", "Linux", "PlayStation 3", "PlayStation 4", "PlayStation 5", "Xbox 360", "Xbox One", "Xbox Series X/S", "Nintendo Switch", "iOS", "Android"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Minecraft_cover.png",
+    src: "https://i.pinimg.com/originals/c3/d9/40/c3d94014981292bcf796f15d660000f0.png",
     seen: true,
     rating: 0,
     commentary: ""
@@ -150,7 +150,7 @@ const videoGames = [
     year: 2013,
     genre: ["MMORPG"],
     platforms: ["PC", "Mac OS", "Linux", "iOS", "Android"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Old_School_RuneScape_logo.png",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1343370/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -162,7 +162,7 @@ const videoGames = [
     year: 2001,
     genre: ["Fighting"],
     platforms: ["PlayStation 2"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Tekken_4_cover.jpg",
+    src: "https://m.media-amazon.com/images/M/MV5BMWNhMWQ4YmMtMDZlNC00ZTM5LTk5NzEtOTZlZDEwMTcwMDkxXkEyXkFqcGc@._V1_.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -174,7 +174,7 @@ const videoGames = [
     year: 2011,
     genre: ["Puzzle", "Platformer"],
     platforms: ["PC", "Mac OS", "Linux", "PlayStation 3", "Xbox 360", "Nintendo Switch"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Portal_2_cover.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -186,7 +186,7 @@ const videoGames = [
     year: 1998,
     genre: ["First-Person Shooter"],
     platforms: ["PC", "Mac OS", "Linux", "PlayStation 2"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Half-Life_cover.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/70/library_600x900.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -198,7 +198,7 @@ const videoGames = [
     year: 2004,
     genre: ["First-Person Shooter", "Action"],
     platforms: ["PC", "Xbox"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Far_Cry_box_art.jpg",
+    src: "https://m.media-amazon.com/images/M/MV5BMTUyOWI1ZTctNmIwYS00MWIxLWEzYzktY2E0NDljNTc2MzkzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -210,7 +210,7 @@ const videoGames = [
     year: 2001,
     genre: ["Role-Playing"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Wizardry_8_cover.jpg",
+    src: "https://tse1.mm.bing.net/th/id/OIP.fQiQcbbMDhxhGAmbOSsnjAHaJ5?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: false,
     rating: null,
     commentary: ""
@@ -222,7 +222,7 @@ const videoGames = [
     year: 1996,
     genre: ["Turn-Based Strategy"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Heroes_of_Might_and_Magic_II_cover.jpg",
+    src: "https://tse4.mm.bing.net/th/id/OIP.-dGAGC7tTX4cV-D_rXFKuQHaKQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: false,
     rating: null,
     commentary: ""
@@ -234,19 +234,7 @@ const videoGames = [
     year: 1995,
     genre: ["Turn-Based Strategy"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Heroes_of_Might_and_Magic_cover.jpg",
-    seen: false,
-    rating: null,
-    commentary: ""
-  },
-  {
-    id: 21,
-    type: "Video Game",
-    name: "Might and Magic IV: Clouds of Xeen",
-    year: 1992,
-    genre: ["Role-Playing"],
-    platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Might_and_Magic_IV_cover.jpg",
+    src: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/67hyCd7BJ68m6q1Ft5Vyvk/ef55453a9f28a1a06cfaf90a456b37c3/575ffd9aa3be1633568b4d84.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -254,11 +242,11 @@ const videoGames = [
   {
     id: 22,
     type: "Video Game",
-    name: "Might and Magic V: Darkside of Xeen",
+    name: "Might and Magic VI/V: Swords of Xeen",
     year: 1993,
     genre: ["Role-Playing"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Might_and_Magic_V_cover.jpg",
+    src: "https://images.igdb.com/igdb/image/upload/t_720p/co6g78.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -270,7 +258,7 @@ const videoGames = [
     year: 1991,
     genre: ["Role-Playing"],
     platforms: ["PC", "Mac OS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Might_and_Magic_III_cover.jpg",
+    src: "https://tse3.mm.bing.net/th/id/OIP.IKq4CD4PtxXoQ02az_vjKAHaJQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: false,
     rating: null,
     commentary: ""
@@ -282,7 +270,7 @@ const videoGames = [
     year: 2002,
     genre: ["Action", "RPG", "Open World"],
     platforms: ["PC", "Xbox"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Elder_Scrolls_III_Morrowind_cover.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/22320/library_600x900.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -294,7 +282,7 @@ const videoGames = [
     year: 1996,
     genre: ["Role-Playing", "Open World"],
     platforms: ["PC"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Elder_Scrolls_II_Daggerfall_cover.jpg",
+    src: "https://i.redd.it/69qq04p7rtl11.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -306,7 +294,7 @@ const videoGames = [
     year: 2023,
     genre: ["Role-Playing", "Turn-Based Combat"],
     platforms: ["PC", "Mac OS", "PlayStation 5", "Xbox Series X/S"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Baldurs_Gate_3_cover_art.jpg",
+    src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -314,23 +302,11 @@ const videoGames = [
   {
     id: 27,
     type: "Video Game",
-    name: "Avatar: The Last Airbender (Fighting Game)",
-    year: 2006,
-    genre: ["Fighting"],
-    platforms: ["PlayStation 2", "Xbox", "Nintendo GameCube", "Game Boy Advance", "Nintendo DS"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Avatar_The_Last_Airbender_video_game_cover.jpg",
-    seen: false,
-    rating: null,
-    commentary: ""
-  },
-  {
-    id: 28,
-    type: "Video Game",
     name: "Grand Theft Auto VI",
     year: 2026,
     genre: ["Action", "Adventure", "Open World"],
     platforms: ["PlayStation 5", "Xbox Series X/S"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Grand_Theft_Auto_VI_cover_art.jpg",
+    src: "https://tse3.mm.bing.net/th/id/OIP.wphKVS4_IinEXbSJ0er1WgHaJQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: false,
     rating: null,
     commentary: ""

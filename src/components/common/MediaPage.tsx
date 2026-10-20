@@ -15,20 +15,30 @@ export default function MediaPage(props: MediaPageProps) {
     const internalType = (str: string): string =>
         str.charAt(0).toUpperCase() + str.slice(1) + "s";
 
-    useEffect(() => {
-        if (props.mediaType === "movie") {
-            setMedia(movies);
-        } else if (props.mediaType === "video game") {
-            setMedia(videoGames);
+    const getMediaObject = (mediaType: string): Media[] | undefined => {
+        if (mediaType === "movie") {
+            return movies;
+        } else if (mediaType === "video game") {
+            return videoGames;
         } else {
-            setMedia(tvShows);
+            return tvShows;
         }
-    }, [])
+    }
+
+    useEffect(() => {
+        setMedia(getMediaObject(props.mediaType))
+
+        return () => {
+            setMedia(undefined);    
+            setWatchedMedia(undefined);
+            setUnwatchedMedia(undefined);
+        }
+    }, [props.mediaType])
     
     setTimeout(() => {
         setWatchedMedia(media?.filter(media => media.seen));
         setUnwatchedMedia(media?.filter(media => !media.seen));
-    }, 3000)
+    }, 500)
 
     return (
         <>

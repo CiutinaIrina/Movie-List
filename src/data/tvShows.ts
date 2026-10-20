@@ -6,7 +6,7 @@ const tvShows = [
     year: 2014,
     seasons: 6,
     genre: ["Animated", "Comedy-Drama"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/BoJack_Horseman_season_1_poster.png",
+    src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj853DyibQgOtf7-3UdzUgV9_rQKBIG29drsLgRb6uQjLJbqZuJksbJJUxUkre_RVaDQJFpow4tLOjFpM28l8cOp7OXiBzrzzYunfOD9teXPC3FTojkTxO5Fk4S8g9p3n_d-bCwtp5rCoNR/s1600/bojack-horseman-poster.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -18,7 +18,7 @@ const tvShows = [
     year: 2008,
     seasons: 5,
     genre: ["Crime", "Drama"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Breaking_Bad_season_1_DVD.jpg",
+    src: "https://tse1.mm.bing.net/th/id/OIP.bbDJzB_rkRJZVQTUCrYptQHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: true,
     rating: 0,
     commentary: ""
@@ -30,7 +30,7 @@ const tvShows = [
     year: 2007,
     seasons: 12,
     genre: ["Sitcom", "Comedy"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Big_Bang_Theory_season_1_DVD.jpg",
+    src: "https://www.themoviedb.org/t/p/original/an3uTx1P0XgHPylgfPV6W7yxKAo.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -42,7 +42,7 @@ const tvShows = [
     year: 2004,
     seasons: 3,
     genre: ["Animated", "Comedy"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Drawn_Together_season_1_DVD.jpg",
+    src: "https://tse4.mm.bing.net/th/id/OIP.NlvgIjU6avpl-jPd8zYliQHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: true,
     rating: 0,
     commentary: ""
@@ -54,7 +54,7 @@ const tvShows = [
     year: 2012,
     seasons: 4,
     genre: ["Animated", "Fantasy"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Legend_of_Korra_season_1_poster.jpg",
+    src: "https://image.tmdb.org/t/p/original/dZgYvSfuh1YHDrJuILlVQ5oA2hF.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -66,7 +66,7 @@ const tvShows = [
     year: 2000,
     seasons: 4,
     genre: ["Animated", "Superhero"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/X-Men_Evolution.jpg",
+    src: "https://image.tmdb.org/t/p/original/At5aZIKkN8zHTAXOnQR9D3b7usW.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -78,7 +78,7 @@ const tvShows = [
     year: 2016,
     seasons: 6,
     genre: ["Historical", "Drama"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/The_Crown_title_card.jpg",
+    src: "https://image.tmdb.org/t/p/original/1M876KPjulVwppEpldhdc8V4o68.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -90,7 +90,7 @@ const tvShows = [
     year: 2026,
     seasons: 1,
     genre: ["Drama"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Lord_of_the_Flies_poster.jpg",
+    src: "https://image.tmdb.org/t/p/original/zD50ejpus5rNidj6CBr4Ml59KOL.jpg",
     seen: true,
     rating: 0,
     commentary: ""
@@ -98,11 +98,11 @@ const tvShows = [
   {
     id: 9,
     type: "TV Show",
-    name: "PGS",
+    name: "Panty and Stocking with Garterbelt",
     year: 2000,
     seasons: null,
     genre: ["Unknown"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/PGS_poster.jpg",
+    src: "https://tse1.mm.bing.net/th/id/OIP.m_H9HQTdx3-TOn0ALQEk8gHaK8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: false,
     rating: null,
     commentary: ""
@@ -114,7 +114,7 @@ const tvShows = [
     year: 1995,
     seasons: 1,
     genre: ["Anime", "Mecha"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Neon_Genesis_Evangelion_poster.jpg",
+    src: "https://tse4.mm.bing.net/th/id/OIP.OVB1lw0LWLJUR-z1CYLgoQHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     seen: false,
     rating: null,
     commentary: ""
@@ -138,7 +138,7 @@ const tvShows = [
     year: 2017,
     seasons: 7,
     genre: ["Sitcom", "Comedy"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Young_Sheldon_title_card.jpg",
+    src: "https://www.themoviedb.org/t/p/original/bvvoXb7SJLM2liOKYeNciEq4Et2.jpg",
     seen: false,
     rating: null,
     commentary: ""
@@ -150,7 +150,7 @@ const tvShows = [
     year: 2022,
     seasons: 2,
     genre: ["Supernatural", "Comedy"],
-    src: "https://en.wikipedia.org/wiki/Special:FilePath/Wednesday_Netflix_series_poster.png",
+    src: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f21b86159275023.639b110867040.jpg",
     seen: false,
     rating: null,
     commentary: ""

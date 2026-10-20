@@ -235,8 +235,8 @@ const movies = [
     genre: ["Comedy", "Romance"],
     src: "https://cdn.shopify.com/s/files/1/1416/8662/products/legally_blonde_2001_original_film_art_2000x.jpg?v=1551782770",
     leadActors: ["Reese Witherspoon", "Luke Wilson", "Selma Blair"],
-    seen: false,
-    rating: null,
+    seen: true,
+    rating: 7,
     commentary: ""
   },
   {
