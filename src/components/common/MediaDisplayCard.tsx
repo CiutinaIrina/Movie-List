@@ -6,7 +6,7 @@ import { getModelRoute } from "../../common/functions";
 
 export default function MediaDisplayCard(props: MediaDisplayCardProps) {
     return (
-        <div className="movie p-3">
+        <div className="movie">
             <a className="movie-img" href={props.media.src}>
                 <img src={props.media.src} />
             </a>

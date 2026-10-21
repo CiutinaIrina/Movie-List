@@ -6,7 +6,7 @@ export default function NavBar() {
     return (
         <>
             <nav className="navbar bg-info bg-gradient navbar-expand-lg py-4 lh">
-                <div className="container-fluid">
+                <div className="px-5 container-fluid">
                     <NavLink className="navbar-brand fs-3 fw-semibold" to="/">Movie List</NavLink>
                     <div className="collapse navbar-collapse px-3">
                         <ul className="navbar-nav">

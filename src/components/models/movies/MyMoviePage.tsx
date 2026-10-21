@@ -25,11 +25,11 @@ export default function MoviePage() {
 
 
     return (
-        <>
+        <section>
             <MediaHeading title="Wathced Movies" name={getMediaType()}/>
             <MediaList mediaEntries={watched}/>
             <MediaHeading title="Unwathced Movies" name={getMediaType()}/>
             <MediaList mediaEntries={unwatched}/>
-        </>
+        </section>
     )
 }
