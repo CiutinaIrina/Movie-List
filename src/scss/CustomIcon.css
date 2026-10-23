@@ -1,0 +1,32 @@
+.custom-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.custom-icon-primary {
+    background-color: hsla(261, 51%, 51%, 0.4);
+    transition: background-color 0.25s ease-in-out;
+}
+
+.custom-icon-primary:hover {
+    background-color: #5a32a3;
+}
+
+.custom-icon-primary:active {
+    background-color: #532e96;
+}
+
+.custom-icon-danger {
+    background-color: hsla(3, 97%, 38%, 0.4);
+    transition: background-color 0.25s ease-in-out;
+}
+
+.custom-icon-danger:hover {
+    background-color: #A20B03;
+}
+
+.custom-icon-danger:active {
+    background-color: #8C0320;
+}

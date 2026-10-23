@@ -7,15 +7,14 @@
     align-self: start;
     height: 440px;
     transition: transform 250ms ease, box-shadow 250ms ease, color 250ms ease;
-    background-color: #000000;
-    border: 1.5px solid rgba(83, 82, 82, 0.801);
-    border-radius: 6px;
-    overflow: hidden;
+    background-color: #18181B;
+    border: 2px solid rgba(83, 82, 82, 0.801);
+    border-radius: 12px;
 }
 
 .media-img {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     width: 260px;
     height: 385px;
 }
@@ -26,11 +25,19 @@
     left: 0;
     z-index: 1;
     width: 260px;
-    height: 440px;
+    height: 436px;
     background: linear-gradient(
         to top,
         #18181B 0%,
         #18181B 13%,
         transparent 100%
     );
+    border-radius: 12px;
 }
+
+.media-icons {
+    padding: 0.25rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
