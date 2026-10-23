@@ -1,10 +1,6 @@
-.movie-list {
+.media-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(calc(260px + 2rem), 1fr));
     gap: 0.5rem;
     justify-content: start;
-}
-
-.movie {
-    justify-self: center;
 }

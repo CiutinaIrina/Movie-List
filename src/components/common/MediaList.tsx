@@ -6,7 +6,7 @@ import MediaDisplayCard from "./MediaDisplayCard";
 export default function MediaList(props: MediaListProps) {
     return (
         <GenericList list={props.mediaEntries}>
-            <div className="movie-list">
+            <div className="media-list p-4">
                 {props.mediaEntries?.map(media => 
                     <MediaDisplayCard media={media} key={media.id}/>
                 )}
