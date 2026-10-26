@@ -7,7 +7,7 @@ import { getModelRoute } from "../../common/functions";
 
 export default function MediaDisplayCard(props: MediaDisplayCardProps) {
     return (
-        <a className="media" href={props.media.src}>
+        <div className="media">
             <img className="media-img" src={props.media.src} />
             <div className="media-desc">
                 <div className="media-icons">
@@ -20,7 +20,7 @@ export default function MediaDisplayCard(props: MediaDisplayCardProps) {
                     <span>{props.media.rating}</span>
                 </div>
             </div>
-        </a>
+        </div>
     )
 }
 

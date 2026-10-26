@@ -1,8 +1,8 @@
 export default function Button(props: ButtonProps) {
-    const classes = `btn btn-${props.status ?? `primary`} btn-${props.size ?? ""}`
+    const classes = `btn btn-${props.status ?? `primary`} btn-${props.size ?? ""} ${props.disabled ? "disabled" : undefined}`
 
     return (
-        <button className={classes} onClick={props.onClick}>
+        <button className={classes} onClick={props.onClick} type={props.type ?? "button"}>
             {props.text ?? ""}
         </button>
     )
@@ -10,7 +10,9 @@ export default function Button(props: ButtonProps) {
 
 interface ButtonProps {
     text?: string;
-    status? :string;
-    size? :string;
+    status?: string;
+    size?: string;
+    type?: "button" | "submit";
+    disabled?: boolean;
     onClick?: () => void;
 }
