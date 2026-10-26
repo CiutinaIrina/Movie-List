@@ -6,7 +6,6 @@ const movies = [
     year: 2026,
     genre: ["Horror"],
     src: "https://upload.wikimedia.org/wikipedia/en/3/3d/Backrooms_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Chiwetel Ejiofor", "Renate Reinsve", "Mark Duplass"],
     seen: true,
     rating: 8.5,
     commentary: "An amazing and thought-provoking horror movie. I cannot wait for more analog-inspired horror."
@@ -18,7 +17,6 @@ const movies = [
     year: 2026,
     genre: ["Drama", "Historical"],
     src: "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Matt Damon", "Tom Holland", "Anne Hathaway", "Robert Pattinson"],
     seen: true,
     rating: 5,
     commentary: "Extremely boring and way too long. The dialogue is too realistic and breaks immersion. Most characters are obnoxious and the message is pretentious."
@@ -30,7 +28,6 @@ const movies = [
     year: 2026,
     genre: ["Comedy", "Children"],
     src: "https://upload.wikimedia.org/wikipedia/en/c/c0/Coyote_vs._Acme_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Will Forte", "Lana Condor", "John Cena"],
     seen: false,
     rating: null,
     commentary: "My friend recommended this movie to me. It looks interesting."
@@ -42,7 +39,6 @@ const movies = [
     year: 2024,
     genre: ["Thriller"],
     src: "https://upload.wikimedia.org/wikipedia/en/9/91/Millers_girl_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Jenna Ortega", "Martin Freeman"],
     seen: true,
     rating: 0.5,
     commentary: "The worst movie I have ever seen in my life. Who thought that a premise like this would be a good idea? The whole film reads like bad Wattpad fiction, but with all the redeeming aspects replaced by relatable slop."
@@ -54,7 +50,6 @@ const movies = [
     year: 1980,
     genre: ["Comedy"],
     src: "https://upload.wikimedia.org/wikipedia/en/e/e0/9_to_5_moviep.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Jane Fonda", "Lily Tomlin", "Dolly Parton"],
     seen: false,
     rating: null,
     commentary: "I planned on seeing this ever since I learned Dolly Parton died. This movie seems ahead of its time."
@@ -66,10 +61,11 @@ const movies = [
     year: 2022,
     genre: ["Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Sam Worthington", "Zoe Saldaña", "Sigourney Weaver", "Stephen Lang", "Kate Winslet", "Cliff Curtis"],
     seen: true,
     rating: 4,
-    commentary: "To this day, I don't understand how such a film series with so much rich lore and worldbuilding ends up so forgettable. All that budget for some underwater scenes that, sure, look cool, but are ultimately just spectacle."
+    commentary: "To this day, I don't understand how such a film series with so much rich lore and worldbuilding ends up so forgettable. All that budget for some underwater scenes that, sure, look cool, but are ultimately just spectacle.",
+    nominated: true,
+    won: false,
   },
   {
     id: 6,
@@ -78,7 +74,6 @@ const movies = [
     year: 2026,
     genre: ["Biopic"],
     src: "https://upload.wikimedia.org/wikipedia/en/3/37/Michael_%282026_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Jaafar Jackson", "Juliano Krue Valdi", "Nia Long", "Laura Harrier", "Miles Teller", "Colman Domingo"],
     seen: true,
     rating: 6.5,
     commentary: "I'm sorry, but this has to be the most sanitized biopic I have ever seen. They depict MJ almost like a saint. Bonus points for the music, because no matter how you see Jackson, he made some amazing music."
@@ -90,7 +85,6 @@ const movies = [
     year: 2024,
     genre: ["Biopic"],
     src: "https://upload.wikimedia.org/wikipedia/en/2/27/Back_to_black_film_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Marisa Abela", "Jack O'Connell", "Eddie Marsan", "Lesley Manville"],
     seen: true,
     rating: 5.5,
     commentary: "I find this biopic very, very boring. Again, we have the issue of sanitization: Winehouse was dulled to be more accessible to contemporary audiences, and much of what made her special was removed. They didn't even show the final harrowing moments of her life. And I don't buy the 'but it's exploitative' argument, as it would not be if the creators employed something called tact."
@@ -102,7 +96,6 @@ const movies = [
     year: 2025,
     genre: ["Sci-Fi"],
     src: "https://i0.wp.com/maactioncinema.com/wp-content/uploads/2025/07/1000053281.jpg?ssl=1",
-    leadActors: ["Sam Worthington", "Zoe Saldaña", "Sigourney Weaver", "Stephen Lang", "Kate Winslet", "Oona Chaplin", "Cliff Curtis"],
     seen: true,
     rating: 5.5,
     commentary: ""
@@ -114,7 +107,6 @@ const movies = [
     year: 2026,
     genre: ["Animation", "Comedy", "Children"],
     src: "https://i.ebayimg.com/images/g/ZpkAAeSwGiFqPsQJ/s-l1600.jpg",
-    leadActors: ["Pierre Coffin", "Allison Janney", "Christoph Waltz", "Jeff Bridges", "Jesse Eisenberg", "Zoey Deutch", "Trey Parker", "Bobby Moynihan", "Phil LaMarr"],
     seen: true,
     rating: 6,
     commentary: ""
@@ -126,7 +118,6 @@ const movies = [
     year: 2023,
     genre: ["Fantasy", "Musical", "Adventure"],
     src: "https://upload.wikimedia.org/wikipedia/en/9/90/Wonka_2023_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Timothée Chalamet", "Calah Lane", "Keegan-Michael Key", "Olivia Colman", "Hugh Grant"],
     seen: true,
     rating: 5,
     commentary: ""
@@ -138,10 +129,11 @@ const movies = [
     year: 1977,
     genre: ["Sci-Fi", "Adventure"],
     src: "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
-    leadActors: ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Peter Cushing", "Alec Guinness"],
     seen: false,
     rating: null,
-    commentary: ""
+    commentary: "",
+    nominated: true,
+    won: false,
   },
   {
     id: 12,
@@ -150,7 +142,6 @@ const movies = [
     year: 2025,
     genre: ["Drama", "Biography"],
     src: "https://upload.wikimedia.org/wikipedia/en/6/60/Franz_2025.jpeg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Idan Weiss", "Jenovéfa Boková", "Peter Kurth", "Carol Schuler", "Sebastian Schwarz"],
     seen: true,
     rating: 7,
     commentary: ""
@@ -162,7 +153,6 @@ const movies = [
     year: 2026,
     genre: ["Comedy", "Crime", "Mystery"],
     src: "https://fr.web.img5.acsta.net/c_310_420/img/b2/0f/b20fa135f8ed4c7d0a5e0949c56e095e.jpg",
-    leadActors: ["Gilles Lellouche", "Laetitia Casta", "Guillaume Gallienne"],
     seen: true,
     rating: 7.5,
     commentary: ""
@@ -174,7 +164,6 @@ const movies = [
     year: 2010,
     genre: ["Biography", "Drama"],
     src: "https://m.media-amazon.com/images/M/MV5BMjQwOTQ4NDk5OF5BMl5BanBnXkFtZTcwNzM0Mjk3Mw%40%40._V1_.jpg",
-    leadActors: ["Claire Danes", "Catherine O'Hara", "Julia Ormond", "David Strathairn"],
     seen: true,
     rating: 5.5,
     commentary: ""
@@ -186,10 +175,11 @@ const movies = [
     year: 2014,
     genre: ["Biography", "Drama", "Romance"],
     src: "https://www.impawards.com/intl/uk/2014/posters/theory_of_everything_ver4_xlg.jpg",
-    leadActors: ["Eddie Redmayne", "Felicity Jones", "Charlie Cox"],
     seen: true,
     rating: 4.5,
-    commentary: ""
+    commentary: "",
+    nominated: true,
+    won: false,
   },
   {
     id: 16,
@@ -198,7 +188,6 @@ const movies = [
     year: 2004,
     genre: ["Comedy"],
     src: "https://upload.wikimedia.org/wikipedia/en/a/ac/Mean_Girls_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Lindsay Lohan", "Rachel McAdams", "Lacey Chabert", "Amanda Seyfried"],
     seen: true,
     rating: 9,
     commentary: ""
@@ -210,7 +199,6 @@ const movies = [
     year: 2014,
     genre: ["Sci-Fi", "Drama", "Adventure"],
     src: "https://cdn.ome.lt/legacy/images/galerias/Interstellar/Interstellar-Poster-18Set2014-1.jpg",
-    leadActors: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain", "Michael Caine"],
     seen: true,
     rating: 8,
     commentary: ""
@@ -222,10 +210,11 @@ const movies = [
     year: 2021,
     genre: ["Comedy", "Drama", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/5/5c/Don%27t_Look_Up_2021_film.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Leonardo DiCaprio", "Jennifer Lawrence", "Meryl Streep", "Cate Blanchett"],
     seen: true,
     rating: 9.5,
-    commentary: ""
+    commentary: "",
+    nominated: true,
+    won: false,
   },
   {
     id: 19,
@@ -234,7 +223,6 @@ const movies = [
     year: 2001,
     genre: ["Comedy", "Romance"],
     src: "https://cdn.shopify.com/s/files/1/1416/8662/products/legally_blonde_2001_original_film_art_2000x.jpg?v=1551782770",
-    leadActors: ["Reese Witherspoon", "Luke Wilson", "Selma Blair"],
     seen: true,
     rating: 7,
     commentary: ""
@@ -246,7 +234,6 @@ const movies = [
     year: 2002,
     genre: ["Horror", "Mystery"],
     src: "https://upload.wikimedia.org/wikipedia/en/3/37/Theringpostere.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Naomi Watts", "Martin Henderson", "David Dorfman"],
     seen: false,
     rating: null,
     commentary: ""
@@ -258,7 +245,6 @@ const movies = [
     year: 2005,
     genre: ["Horror", "Mystery"],
     src: "https://amblin.com/wp-content/uploads/2019/07/ring2_2005_poster_1.jpg",
-    leadActors: ["Naomi Watts", "Simon Baker", "David Dorfman"],
     seen: false,
     rating: null,
     commentary: ""
@@ -270,7 +256,6 @@ const movies = [
     year: 2000,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/8/81/X-MenfilmPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Hugh Jackman", "Patrick Stewart", "Ian McKellen", "Halle Berry"],
     seen: false,
     rating: null,
     commentary: ""
@@ -282,7 +267,6 @@ const movies = [
     year: 2003,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/3/3e/X2_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Hugh Jackman", "Patrick Stewart", "Ian McKellen", "Halle Berry"],
     seen: false,
     rating: null,
     commentary: ""
@@ -294,7 +278,6 @@ const movies = [
     year: 2006,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/5/5b/X-Men_The_Last_Stand_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Hugh Jackman", "Halle Berry", "Ian McKellen", "Patrick Stewart"],
     seen: false,
     rating: null,
     commentary: ""
@@ -306,7 +289,6 @@ const movies = [
     year: 2011,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/5/55/X-MenFirstClassMoviePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["James McAvoy", "Michael Fassbender", "Jennifer Lawrence", "Kevin Bacon"],
     seen: false,
     rating: null,
     commentary: ""
@@ -318,7 +300,6 @@ const movies = [
     year: 2014,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/0/0c/X-Men_Days_of_Future_Past_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Hugh Jackman", "James McAvoy", "Michael Fassbender", "Jennifer Lawrence"],
     seen: false,
     rating: null,
     commentary: ""
@@ -330,7 +311,6 @@ const movies = [
     year: 2016,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/0/04/X-Men_-_Apocalypse.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["James McAvoy", "Michael Fassbender", "Jennifer Lawrence", "Oscar Isaac"],
     seen: false,
     rating: null,
     commentary: ""
@@ -342,7 +322,6 @@ const movies = [
     year: 2019,
     genre: ["Action", "Sci-Fi"],
     src: "https://upload.wikimedia.org/wikipedia/en/9/9e/Dark_Phoenix_%28film%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-    leadActors: ["Sophie Turner", "James McAvoy", "Michael Fassbender", "Jennifer Lawrence"],
     seen: false,
     rating: null,
     commentary: ""
