@@ -3,10 +3,12 @@ import Button from "../common/Button";
 import { yupResolver } from '@hookform/resolvers/yup';
 import { NavLink, useLocation } from "react-router-dom";
 import { firstLetterCapitalized } from "../../common/validators";
+import { camelCase, capitalise } from "../../common/functions"
 import * as yup from "yup";
+import "../../scss/Form.css";
 
 export default function CreateMedia() {
-    const { handleSubmit, register, watch, formState: {errors, isValid}} = useForm<MediaForm>({
+    const { handleSubmit, register, watch, formState: {errors, isValid, isSubmitting}} = useForm<MediaForm>({
         resolver: yupResolver(validateForm),
         mode: "onChange"
     })
@@ -17,62 +19,72 @@ export default function CreateMedia() {
 
     const seen = watch("seen");
 
-    const onSubmit: SubmitHandler<MediaForm> = (data) => {
+    const mediaListPage = "/" + camelCase(category) + "s";
+
+    const onSubmit: SubmitHandler<MediaForm> = async (data) => {
+        await new Promise((resolve) => setTimeout(resolve, 3000))
+
         validateForm
             .validate(data)
             .then(() => console.log(data))
-            .catch((error: yup.ValidationError) => console.log(error));
+            .catch((errors) => console.log(errors));
     }
-
+    
     return (
         <>
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <div className="form-group">
-                    <label>Name</label>
-                    <input className="form-control" type="text" {...register("name")}/>
-                </div>
-                <p className="text-danger">{errors.name?.message ?? undefined}</p>
-
-                <div className="form-group">
-                    <label>Year</label>
-                    <input className="form-control" type="number" {...register("year")}/>
-                </div>
-                <p className="text-danger">{errors.year?.message ?? undefined}</p>
-
-                <div className="form-group">
-                    <label>Commentary</label>
-                    <input className="form-control" type="description" {...register("seen")}/>
+            <h1>Add a new {capitalise(category)}</h1>
+            <form className="form" onSubmit={handleSubmit(onSubmit)}>
+                <div className="form-field">
+                    <label className="field-label" htmlFor="name">Name</label>
+                    <input id="name" className="field-text" type="text" {...register("name")}/>
+                    <p className="form-danger text-danger">{errors.name?.message ?? undefined}</p>
                 </div>
 
-                <div className="form-group">
-                    <label>Seen</label>
-                    <input className="form-check-input" type="checkbox" {...register("commentary")}/>
+                <div className="form-field">
+                    <label className="field-label" htmlFor="year">Year</label>
+                    <input id="year" className="field-number" type="number" {...register("year")}/>
+                    <p className="form-danger text-danger">{errors.year?.message ?? undefined}</p>
                 </div>
 
-                { category === "movie" && (<div className="form-group">
-                    <label>Nominated for Best Picture</label>
-                    <input className="form-check-input" type="checkbox" {...register("nominated")}/>
+                <div className="form-field">
+                    <label className="field-label" htmlFor="commentary">Commentary</label>
+                    <input id="commentary" className="field-desc" type="description" {...register("commentary")}/>
+                    <p className="form-danger text-danger"></p>
+                </div>
+
+                <div className="form-field-checkbox">
+                    <label className="field-label" htmlFor="seen">Seen</label>
+                    <input id="seen" className="field-checkbox" type="checkbox" {...register("seen")}/>
+                    <p className="form-danger text-danger"></p>
+                </div>
+
+                { category === "movie" && (<div className="form-field-checkbox">
+                    <label className="field-label" htmlFor="nominated">Nominated for Best Picture</label>
+                    <input id="nominated" className="field-checkbox" type="checkbox" {...register("nominated")}/>
+                    <p className="form-danger text-danger"></p>
                 </div>)}
 
-                { category === "movie" && (<div className="form-group">
-                    <label>Won Best Picture</label>
-                    <input className="form-check-input" type="checkbox" {...register("won")}/>
+                { category === "movie" && (<div className="form-field-checkbox">
+                    <label className="field-label" htmlFor="won">Won Best Picture</label>
+                    <input id="won" className="field-checkbox" type="checkbox" {...register("won")}/>
+                    <p className="form-danger text-danger"></p>
                 </div>)}
 
-                { category === "tv show" && (<div className="form-group">
-                    <label>Number of seasons</label>
-                    <input className="form-control" type="number" {...register("seasons")}/>
+                { category === "tv show" && (<div className="form-field">
+                    <label className="field-label" htmlFor="seasons">Number of seasons</label>
+                    <input id="seasons" className="field-number" type="number" {...register("seasons")}/>
+                    <p className="form-danger text-danger"></p>
                 </div>)}
 
-                { seen && (<div className="form-group">
-                    <label>Rating</label>
-                    <input className="form-control" type="number" {...register("rating")}/>
-                </div>)}
+                <div className={`form-field ${seen ? "" : "form-hidden"}`}>
+                    <label className="field-label" htmlFor="rating">Rating</label>
+                    <input id="rating" className="field-number" type="number" {...register("rating")}/>
+                    <p className="form-danger text-danger"></p>
+                </div>
 
-                <Button type="submit" text="Create Movie" disabled={!isValid}/>
-                <NavLink to="/movies"><Button status="danger" text="Cancel"/></NavLink>
+                <Button type="submit" text={isSubmitting ? "Sending..." : "Send"} disabled={!isValid || isSubmitting}/>
+                <NavLink to={mediaListPage}><Button status="danger" text="Cancel"/></NavLink>
             </form>
-
         </>
     )
 }

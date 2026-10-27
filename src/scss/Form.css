@@ -1,0 +1,56 @@
+.form{
+    padding: 3rem;
+    gap: 0.5rem;
+}
+
+.field-label {
+    height: 1.5rem;
+    margin: 0px;
+}
+
+.field-text {
+    height: 2rem;
+}
+
+.field-number {
+    height: 2rem;
+    width: 4rem;
+}
+
+.field-checkbox {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.form-danger {
+    height: 0.5rem;
+    font-size: 12px;
+    padding: 0;
+    margin: 0.25rem 0 0 0;
+}
+
+.form-field {
+    display: grid;
+    max-width: 400px;
+    max-height: 150px;
+    justify-items: baseline;
+    margin-bottom: 0.5rem;
+}
+
+.form-field > input:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25);
+}
+
+.form-field-checkbox {
+    display: flex;
+    justify-items: baseline;
+    align-items: center;
+    height: 2rem;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.form-hidden {
+    visibility: hidden;
+}
