@@ -16,8 +16,8 @@ export default function MediaDisplayCard(props: MediaDisplayCardProps) {
                 </div>
                 <h2 className="media-title">{props.media.name}</h2>
                 <div className="media-info">
-                    <span>Genres</span>
-                    <span>{props.media.rating}</span>
+                    {/* <span>Genres</span> */}
+                    {/* <span>{props.media.rating}</span> */}
                 </div>
             </div>
         </div>
